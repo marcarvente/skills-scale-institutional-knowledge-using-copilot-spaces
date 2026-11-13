@@ -1,12 +1,14 @@
 # OctoAcme Project Management Docs
 
-This folder contains OctoAcme's project management guidance. OctoAcme manages work through a lifecycle of **initiation**, **planning**, **iterative execution**, **release**, and **retrospective**. Initiation validates the business need, outcomes, stakeholders, and go/no-go decision. Planning turns approved work into a prioritized backlog with acceptance criteria, estimates, dependencies, risks, and milestones. During execution, teams track progress on a project board, address blockers, and deliver small increments. Releases are verified, deployed, communicated, and rolled back or mitigated when necessary. Retrospectives capture lessons and turn them into owned improvement actions.
+This folder contains OctoAcme's project management guidance, from validating an initiative to delivering, releasing, and learning from the work. Use this README as the starting point for finding the relevant process and role guidance.
 
-The **Project Manager (PM)** coordinates delivery, schedules, risks, and communications; the **Product Manager (PdM)** owns outcomes, priorities, and success measures; developers build and test the work; and QA validates quality and acceptance criteria. Stakeholders provide input and approvals. Teams stay aligned through regular standups, PM/PdM and delivery syncs, stakeholder updates, project-board status, and clear escalation paths. Shared artifacts—including the project one-pager, roadmap and release plan, backlog, Definition of Done, risk register, and retrospective actions—provide a common source of truth.
+## Project management processes at a glance
 
-Quality is built into the workflow: changes should have clear acceptance criteria, small PRs linked to issues, CI tests and linting, appropriate review approvals, security scanning, and unit, integration, or end-to-end testing as applicable. Manual QA and post-deployment smoke checks are used when needed to verify feature acceptance and release readiness.
+OctoAcme moves work through initiation, planning, iterative execution, release, and close/retrospective. Initiation validates the business need, desired outcomes, stakeholders, and go/no-go decision. Planning turns approved work into a prioritized backlog with acceptance criteria, estimates, dependencies, risks, a Definition of Done, and milestones. During execution, the team tracks work on a shared board, manages blockers and risks, and delivers small increments. Release preparation includes verifying acceptance criteria, CI and security checks, release notes, smoke tests, and rollback plans; teams then deploy, verify, and communicate the release. Retrospectives capture lessons and assign improvement actions.
 
-## Process Documents
+Project Managers coordinate delivery plans, risks, dependencies, and communications; Product Managers own product outcomes, priorities, and success measures. Developers implement and test the work, QA validates quality and acceptance, and stakeholders provide input and approvals. Teams stay aligned through standups, weekly PM/Product Manager and delivery syncs, milestone demos or reviews, and regular stakeholder updates, escalating blockers through the agreed path. Quality is built in through unit, integration, and end-to-end smoke tests as appropriate, automated CI and security scanning, code review, and manual QA when needed.
+
+## Process documents
 
 - [OctoAcme Project Management Overview](octoacme-project-management-overview.md)
 - [Project Initiation Guide](octoacme-project-initiation.md)
@@ -17,4 +19,4 @@ Quality is built into the workflow: changes should have clear acceptance criteri
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
 - [OctoAcme Personas](octoacme-roles-and-personas.md)
 
-Update this index when process documents are added, renamed, or removed.
+Keep this index updated when process documents are added, renamed, or removed.
