@@ -1,14 +1,18 @@
 # OctoAcme Project Management Docs
 
-This folder contains OctoAcme's project management guidance, from validating an initiative to delivering, releasing, and learning from the work. Use this README as the starting point for finding the relevant process and role guidance.
+This folder provides the core project management guidance used by OctoAcme, from validating a new initiative to closing out a delivery cycle. It is designed to help team members quickly find the right operating model, process steps, artifacts, and communication patterns for each stage of a project.
 
-## Project management processes at a glance
+## Project management overview
 
-OctoAcme moves work through initiation, planning, iterative execution, release, and close/retrospective. Initiation validates the business need, desired outcomes, stakeholders, and go/no-go decision. Planning turns approved work into a prioritized backlog with acceptance criteria, estimates, dependencies, risks, a Definition of Done, and milestones. During execution, the team tracks work on a shared board, manages blockers and risks, and delivers small increments. Release preparation includes verifying acceptance criteria, CI and security checks, release notes, smoke tests, and rollback plans; teams then deploy, verify, and communicate the release. Retrospectives capture lessons and assign improvement actions.
+OctoAcme manages work through a lifecycle that begins with initiation and ends with reflection and improvement. During initiation, the team validates the business need, key stakeholders, desired outcome, risks, and rough resourcing. A lightweight project one-pager captures the problem, goals, metrics, milestones, and go/no-go criteria so work is aligned before planning begins.
 
-Project Managers coordinate delivery plans, risks, dependencies, and communications; Product Managers own product outcomes, priorities, and success measures. Developers implement and test the work, QA validates quality and acceptance, and stakeholders provide input and approvals. Teams stay aligned through standups, weekly PM/Product Manager and delivery syncs, milestone demos or reviews, and regular stakeholder updates, escalating blockers through the agreed path. Quality is built in through unit, integration, and end-to-end smoke tests as appropriate, automated CI and security scanning, code review, and manual QA when needed.
+Once approved, planning breaks the initiative into manageable scope, backlog items, estimates, dependencies, and milestones. The team defines acceptance criteria, a Definition of Done, release timing, and a preliminary QA approach so delivery can move with clarity and accountability. In execution, work is tracked through team rhythm, project boards, and regular status reviews that keep progress visible and blockers surfaced early.
 
-## Process documents
+A shared operating model makes this process repeatable. Product Managers own the customer problem and success metrics, Project Managers coordinate schedules, risks, and communication, and Developers and QA deliver and validate the work against acceptance criteria. Stakeholders provide input, prioritization, and approvals as needed. Across the lifecycle, the team relies on common artifacts such as the project one-pager, backlog, risk register, roadmap, release plan, and retrospective actions.
+
+Quality is treated as a delivery requirement, not a final step. OctoAcme expects small, reviewable pull requests, CI checks including linting and automated tests, security scanning, and manual QA where appropriate. Release readiness includes smoke tests, deployment verification, stakeholder communication, and rollback planning if issues arise. After each sprint, release, or milestone, the team captures what went well, what could improve, and which actions will be tracked to create a continuous improvement cycle.
+
+## Document index
 
 - [OctoAcme Project Management Overview](octoacme-project-management-overview.md)
 - [Project Initiation Guide](octoacme-project-initiation.md)
@@ -19,4 +23,4 @@ Project Managers coordinate delivery plans, risks, dependencies, and communicati
 - [Retrospective & Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md)
 - [OctoAcme Personas](octoacme-roles-and-personas.md)
 
-Keep this index updated when process documents are added, renamed, or removed.
+Use this index as the starting point for project documentation and keep it updated as process docs are added or renamed.
